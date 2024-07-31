@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "PriMuse",
+    "slug": "PriMuse",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "myPriMuse",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image" : "",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bitcode": false,
+      "bundleIdentifier": "com.PriMuse"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": ""
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
